@@ -79,7 +79,7 @@ function App() {
           <span className="current-tab">Current: {currentTab.label}</span>
           {activeTab === 'rtkQuery' && (
             <span className="backend-status">
-              📡 Backend required on port 5000
+              📡 Backend required on port 4000
             </span>
           )}
         </div>
